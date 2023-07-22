@@ -1,0 +1,45 @@
+h6{
+    color:#06731A;
+}
+small{
+    color:#06731A;
+}
+.d-block{
+    color:#06731A;
+}
+p{
+    color:#06731A; 
+}
+
+#paginacion{
+    float:left;
+    
+}
+.btnPag{
+    margin-left:5px;
+    background-color:rgb(210, 208, 208);
+    color:#06731A;
+    border-color:#06731A;
+    text-shadow: rgb(112, 111, 111);
+    box-shadow:0.1em 0.1em 0.2em #045012;
+    border-radius:5px;
+    font-weight:bolder;
+}
+.entradas{
+    height:500px;
+    
+}
+
+#paginacion{
+    margin-top:20px;
+}
+
+.botonEnt{
+    background-color:transparent;
+    border:none;
+    text-align:left;
+}
+
+.bi{
+    color:#06731A;
+}

@@ -1,0 +1,35 @@
+div{
+    color:#06731A;
+}
+
+.btn{
+    background-color:rgb(210, 208, 208);
+    border-color:#06731A;
+    color:#06731A;
+    font-weight:bolder;
+    font-size:30px;
+}
+
+.btn:focus{
+    background-color:#045613;
+}
+
+p{
+    font-size:30px;
+    text-shadow:1px 1px 3px #045613;
+}
+
+h5{
+    font-size:40px;
+    letter-spacing:15px;
+    text-shadow:1px 1px 3px #045613;
+}
+
+.border-bottom{
+    border-color:#045613;
+}
+
+.btn:hover{
+    background-color:#067c1c;
+    color:white;
+}

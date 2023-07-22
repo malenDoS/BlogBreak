@@ -1,0 +1,61 @@
+<div id="contenidoPr" class=" container">
+  <div class="row">
+    <div class="col-md-4">
+      <div style="height:325px;" class="card mb-4 rounded-3 shadow-sm ">
+        <div class="card-header py-3 ">
+          <h4 class="my-0 fw-normal"></h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">Perfil<small class="text-muted fw-light">/historial</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Consulta tu perfil</li>
+            <li>Revisa tus publicaciones</li>
+            <li>Lee los comentarios</li>
+          </ul>
+          <button type="button" [routerLink]="['/Perfil']" class="w-100 btn btn-lg"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-text" viewBox="0 0 16 16">
+            <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+            <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+          </svg></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div style="height:325px;" class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3 ">
+          <h4 class="my-0 fw-normal"></h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">Buscar<small class="text-muted fw-light">/contactos</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Perfiles de otros usuarios</li><br>
+            <li><input [(ngModel)]="nombreContacto" name="contacto" type="text" class="form-control busCon" placeholder="codigo Usuario"></li>
+          </ul>
+          <button type="button" (click)="buscaContactos()"  class="w-100 btn btn-lg"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+          </svg></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div style="height:325px;" class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal"></h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">Escribe<small class="text-muted fw-light">/publica</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Nueva entrada</li>
+            <li>Añade información a tu perfil</li>
+            <li>Crea contenido</li>
+          </ul>
+          <button type="button"[routerLink]="['/NuevaEntrada']" class="w-100 btn btn-lg"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+            <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
+          </svg></button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,15 @@
+<div *ngIf="getToken()==''" class="row contenidoReg">
+    <div *ngIf="tokenLogin==''" class="text-center offset-md-7 col-md-4">
+<form class="form-signin formularioReg">
+    <h1 class="h3 mb-3 font-weight-normal">Login</h1>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Correo electrónico" required autofocus [(ngModel)]="email" name="email"><br/>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required [(ngModel)]="contrasegna" name="contrasegna"><br/><br/>
+    <button class="btn btn-lg btn-primary btn-block" (click)="loginUsuario()">Login</button>
+  </form>
+  </div>
+  <div *ngIf="tokenLogin!=''">
+    <p>Usuario registrado</p>
+  </div>
+</div>
+<div class="" id="usuarioLogueado" *ngIf="getToken()!=''">
+</div>

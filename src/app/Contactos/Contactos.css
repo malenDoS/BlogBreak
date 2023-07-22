@@ -1,0 +1,52 @@
+.botonEnt{
+    background-color:transparent;
+    border:none;
+    text-align:left;
+}
+
+h6{
+    color:#06731A;
+}
+small{
+    color:#06731A;
+}
+.d-block{
+    color:#06731A;
+}
+p{
+    color:#06731A; 
+}
+
+.entradas{
+    height:500px;
+    border:none;
+    
+}
+
+.botonEnt{
+    background-color:transparent;
+    border:none;
+    text-align:left;
+}
+
+.btnPag{
+    margin-left:5px;
+    background-color:rgb(210, 208, 208);
+    color:#06731A;
+    border-color:#06731A;
+    text-shadow: rgb(112, 111, 111);
+    box-shadow:0.1em 0.1em 0.2em #045012;
+    border-radius:5px;
+}
+
+#paginacion{
+    float:left;
+}
+
+.conEnt{
+    height:550px;
+}
+
+.bi{
+    color:#06731A;
+}

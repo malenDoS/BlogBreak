@@ -1,0 +1,62 @@
+#tituloYentrada{
+    margin-top:50px;
+    
+}
+input{
+    color:#06731A;
+    font-weight:bold;
+    border-color:#077f1d;
+}
+input:focus,textarea:focus{
+    box-shadow:0.1em 0.1em 0.2em #045012;
+    color:#077f1d;
+    border-color:#077f1d;
+}
+textarea::placeholder{
+    color:#06731A;
+}
+
+.bEntrada:focus{
+    box-shadow: 2px 2px 2px 2px white;
+    background-color:rgba(225, 125, 95);
+}
+#contenidoPr{
+    margin-top:50px;
+}
+
+button{
+    background-color:rgb(210, 208, 208);
+    color:#06731A;
+    border-color:#06731A;
+    text-shadow: rgb(112, 111, 111);
+    box-shadow:0.1em 0.1em 0.2em #045012;
+}
+
+button:focus{
+    background-color:rgb(135, 134, 134);
+}
+button:hover{
+    background-color:rgb(182, 180, 180);
+    border-color:#06731A;
+}
+.card{
+    color:#06731A;
+    border-color:#06731A;
+}
+.fw-normal{
+    border-color:#06731A;
+}
+.card-header{
+    background-color:#06731A;
+}
+
+.busCon{
+    color:#06731A;
+    text-align:center;
+    background-color:rgb(210, 208, 208);
+}
+
+.busCon::placeholder{
+    color:#077f1d;
+}
+

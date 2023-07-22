@@ -1,0 +1,27 @@
+<div *ngIf="nuevaEnt==false" class="form-group shadow-textarea row col-md-6 offset-md-3" id="tituloYentrada">
+    <div class="form-outline col-md-4 offset-md-4">
+        <input [(ngModel)]="titulo" type="text" id="formControlLg" style="text-align:center" class="form-control form-control-lg" placeholder="Título" />
+      </div>
+    <textarea [(ngModel)]="contenido" style="margin-top:10px; color:#06731A;; font-size:25px" class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Escribe Tu entrada"></textarea>
+    <a (click)="escribirEntrada()" class="bEntrada btn btn-primary btn-lg" tabindex="-1" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
+      <path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"/>
+    </svg></a>
+  </div>
+
+<div class="row container" *ngIf="nuevaEnt==true" id="mensajeEntrada">
+  <main style="margin-top:20px;" role="main" class="inner cover">
+    <h1 style="margin-top:50px;" class="cover-heading row offset-md-5 col-md-5">Nueva Entrada Añadida</h1>
+    <div style="margin-top:50px;" class="row">
+    <p class="lead offset-md-5 col-md-4 border-bottom">{{mensaje1}}</p><br/>
+    <p class="lead offset-md-5 col-md-5">{{mensaje2}}</p><br/>
+    </div>
+    <div style="margin-top:50px;" class="row">
+    <p class="lead offset-md-4 col-md-3">
+      <a style="width:180px;"  class="btnPag btn btn-lg btn-secondary btn-block" (click)="volverEsc()">Volver a escribir</a>
+      </p>
+      <p class="offset-md-1 col-md-3">
+      <a style="width:180px;" class="btnPag btn btn-lg btn-secondary btn-block" [routerLink]="['/Perfil']">Perfil</a>
+      </p>
+    </div>
+  </main>
+</div>

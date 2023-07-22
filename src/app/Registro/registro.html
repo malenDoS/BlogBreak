@@ -1,0 +1,17 @@
+    
+    <div class="row contenidoReg">
+        <div  class="text-center offset-md-7 col-md-4">
+    <form class="form-signin formularioReg">
+        <h1 class="h3 mb-3 font-weight-normal">Registro</h1>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Correo electrónico" required autofocus [(ngModel)]="email" name="email"><br/>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required [(ngModel)]="contrasegna" name="contrasegna">
+        <div class="checkbox mb-3">
+        </div><br/>
+        <button (click)="registroUsuario()" class="btn btn-lg btn-primary btn-block">Registro</button>
+        
+      </form>
+      <p>{{respuesta}}</p>
+      </div>
+
+      
+</div>

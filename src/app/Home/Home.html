@@ -1,0 +1,7 @@
+<div style="margin-top:100px;" class="container card-body row">
+    <h5 class="border-bottom card-title col-md-4" style="margin-left:600px;"><img width="30px" height="30px" src="../assets/img/Lápiz verde.png">BLOG BREAK</h5>
+    <p style="margin-top:70px; text-align:center; margin-left:475px;" class="card-text col-md-6">Guarda tus entradas y crea una red de contactos.</p>
+    <a [routerLink]="['Registro']" style="letter-spacing:5px; margin-top:50px;" *ngIf="token==''" href="#" class="btn btn-primary col-md-3 offset-6">Registro</a>
+    <a [routerLink]="['Perfil']" style="margin-top:50px;" *ngIf="token!=''" href="#" class="btn btn-primary col-md-3 offset-6">Perfil</a>
+  </div>
+  

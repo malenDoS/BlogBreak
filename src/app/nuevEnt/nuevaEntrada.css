@@ -1,0 +1,61 @@
+#tituloYentrada{
+    margin-top:50px;
+    
+}
+input{
+    color:#06731A;;
+    font-weight:bold;
+    border-color:#06731A;
+}
+input::placeholder{
+    color:#06731A;
+}
+input:focus,textarea:focus{
+    box-shadow:1px 1px 1px 1px rgb(210, 208, 208);
+    color:#06731A;
+    border-color:#06731A
+}
+textarea::placeholder{
+    color:#06731A;;
+}
+textarea{
+    border-color:#06731A;
+}
+.bEntrada{
+    margin-top:20px;
+    background-color:rgb(210, 208, 208);
+    border:none;
+    background-color:#06731A;
+    color:rgb(210, 208, 208);
+}
+.bEntrada:focus{
+    background-color:#088d20;
+}
+#contenidoPr{
+    margin-top:50px;
+}
+
+.btnPag{
+    margin-left:5px;
+    background-color:rgb(210, 208, 208);
+    color:#06731A;
+    border-color:#06731A;
+    text-shadow: rgb(112, 111, 111);
+    box-shadow:0.1em 0.1em 0.2em #045012;
+    border-radius:5px;
+}
+
+.btnPag:hover{
+    background-color:rgb(182, 180, 180);
+    color:#06731A;
+}
+.bEntrada:hover{
+    background-color:#088d20;
+    color:white;
+}
+.btnPag:focus{
+    background-color:white;
+}
+#mensajeEntrada{
+    color:#06731A;
+}
